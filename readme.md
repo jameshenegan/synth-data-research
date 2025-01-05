@@ -20,7 +20,7 @@ The purpose of this repository is to store research related to companies that sp
 - `04`: Is this company able to generate synthetic data based off of unstructed data (e.g., PDF files, Word Documents)
 - `05`: What can you tell me about how easy it is to use the products offered by this company?
 - `06`: What can you tell me about privacy features offered by the company, security features offered by the company, and overall trustworthiness of the company with respect to the generation of synthetic data?
-- `07`: Do you know the history of this company?
+- `07`: What can you tell me about the general history of this company?
 - `08`: Do you know when this company was founded?
 - `09`: Do you know where the company is located? Are they based in the United States?
 - `10`: What can you tell me about which companies or organizations use this company to produce synthetic data?
