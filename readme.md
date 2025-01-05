@@ -24,3 +24,8 @@ The purpose of this repository is to store research related to companies that sp
 - `08`: Do you know when this company was founded?
 - `09`: Do you know where the company is located? Are they based in the United States?
 - `10`: What can you tell me about which companies or organizations use this company to produce synthetic data?
+
+## Additional Resources
+
+- https://github.com/statice/awesome-synthetic-data
+- https://github.com/gretelai/awesome-synthetic-data
