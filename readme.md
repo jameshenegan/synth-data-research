@@ -13,7 +13,7 @@ The purpose of this repository is to store research related to companies that sp
 
 ## Questions
 
-- `01`: What can you tell me about COMPANY_NAME, a company that offers solutions related to the creation of synthetic data
+- `01`: What can you tell me about COMPANY_NAME, a company that offers solutions related to the creation of synthetic data?
 - `02`: Do you have any information on the pricing plans provided by this company?
 - `03`: Is this company able to generate synthetic data based off of tabular data?
 - `03a`: What can you tell me about the methods this company uses to generate synthetic data off of tabular data?
