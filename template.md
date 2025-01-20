@@ -51,3 +51,9 @@ What can you tell me about the general history of this company?
 What can you tell me about which companies or organizations use this company to produce synthetic data?
 
 ## Response
+
+## Question 11
+
+I am curious about working installation and deployment, particularly the topic of "on-prem" versus "in the cloud". Can this company's products work "on prem"? Can it work "in the cloud"?
+
+## Response
