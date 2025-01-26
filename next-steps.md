@@ -15,6 +15,17 @@ Gather all resources related to certain questions
   - How is synthetic data different from simulated data?
   - What types of data are we talking about? Structured? Unstructured?
 - What are some general use cases for synthetic data?
+- Summarize academic paper:
+  - Privacy in ML
+  - Utility, Fidelidty, and Privacy
+  - Auditing
+    - Privacy
+    - Utility
+    - Fidelity
+  - Private Synthetic Data
+  - De-biased Synthetic Data
+  - Data Augmentation
+- Present key takeaways from paper
 - What are some specific examples of how companies use synthetic data?
 - What are some methods for generating synthetic data?
 - Vendor Landscape
