@@ -1,4 +1,4 @@
-### 2. Data-Type-Specific Challenges
+### Data-Type-Specific Challenges
 
 1. **Tabular Data**
 
