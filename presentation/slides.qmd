@@ -1,0 +1,19 @@
+---
+title: "My Awesome Presentation"
+author: "Jane Doe"
+date: "2025-01-27"
+format:
+  revealjs:
+    theme: solarized
+    transition: slide
+    slideNumber: true
+
+---
+
+# Introduction
+
+Welcome to my talk! Here’s an overview of what we'll cover:
+- Topic A
+- Topic B
+- Topic C
+

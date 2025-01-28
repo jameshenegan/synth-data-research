@@ -1,0 +1,128 @@
+---
+title: "Synthetic Data"
+author: "Jane Doe"
+date: "2025-01-27"
+format: 
+  revealjs: 
+    slide-level: 2        
+    transition: slide
+    slideNumber: true
+    typography:
+      fontSize: 10px  
+echo: true
+---
+
+
+# Introduction
+
+## Introduction and Context
+
+## Timeline
+
+
+- 1987: Donald Rubin introduces multiple imputation.
+- 1993: Rubin and Roderick Little suggest using multiple imputation to generate synthetic data.
+- Early 2000s: Abowd & Woodcock (2001, 2004) synthesize longitudinal linked data.
+- 2006: U.S. Census Bureau releases large-scale synthetic data products (SIPP Synthetic Beta, 2006). 
+- 2007: Barak et al. propose one of the first differentially private synthetic data methods. 
+- 2008: OnTheMap (2008) applies formal privacy at scale.
+- 2011: Synthetic Longitudinal Business Database released (2011). 
+- 2014: PrivBayes (Zhang et al. 2014) and DPCopula (Li et al. 2014) address high-dimensional data under DP.
+- 2015 : Statistics Netherlands releases synthetic EU-SILC (2015). 
+- 2016: Maryland’s Synthetic Data Project (2016) begins. 
+- 2017: GANs emerge for tabular data (medGAN, 2017)
+- 2018-2019: NIST DP Synthetic Data Challenge 
+
+- **Late 2010s–Early 2020s**  
+  Rapid GAN-based innovations (CTGAN, Causal TGAN) and other advanced ML (autoencoders, Bayesian networks) appear. Statistics Canada’s hackathon (2020) and ongoing Australian Bureau of Statistics initiatives (2021–2022) illustrate expanding adoption.
+
+- **Recent Trends**  
+  Greater integration of DP guarantees, advanced ML approaches, increasing agency adoption, and ongoing research to balance utility with privacy.
+
+# Synthetic Data Timeline
+
+## Timeline 
+
+### **Before 1993: Foundations in Multiple Imputation**
+- **1987** – Donald Rubin introduces multiple imputation (MI) for handling missing data. This framework later becomes the foundation for synthetic data methods used for disclosure protection.
+
+## 
+
+### **Mid-Late 1990s: Initial Applications and Extensions**
+- **1994** – **Fienberg** proposes using a smoothed estimate of a dataset’s distribution (via bootstrapping) for synthetic data.
+- **1997** – **U.S. Federal Reserve Board** replaces high-risk monetary values in the Survey of Consumer Finances with synthetic values (Kennickell, 1997).  
+
+- **Late 1990s** – Synthetic data remains primarily an idea in the statistical disclosure control community; computer science approaches to data privacy focus on *k*-anonymity and related models, which do not align neatly with synthetic data.
+
+## 
+
+### **Early 2000s: Methodological Foundations**
+- **2001 & 2004** – **Abowd & Woodcock** demonstrate generating synthetic longitudinal, linked data (French National Institute of Statistics data), showcasing utility for complex datasets.
+
+- **2003** - **Raghunathan et al.** develop a full methodology for valid inference from *fully* synthetic data.  
+- **2003** - **Reiter** develops a complementary methodology for *partially* synthetic data.  
+
+##
+
+### **Early 2000s: Methodological Foundations**
+
+- **2006** – **Dwork et al.** formally introduce **differential privacy (DP)**, shifting the privacy focus to the *mechanism* rather than the *released data*. This opens the door to broader adoption of synthetic data in computer science.
+
+## 
+
+### **Mid-Late 2000s: Large-Scale Releases and DP Foundations**
+- **2006** – **Abowd et al.** release the *SIPP Synthetic Beta*, linking the Survey of Income and Program Participation (SIPP) to administrative data (Social Security Administration and IRS).
+- **2007** – **Barak et al.** propose one of the first **differentially private synthetic data** methods using Fourier transforms and linear programming on contingency tables.
+
+##
+- **2008** – 
+  - **OnTheMap** (Machanavajjhala et al.) becomes the first large-scale application that incorporates formal (ε, δ)-probabilistic differential privacy to release commuting pattern data.  
+  - **Abowd & Vilhuber** and others adapt ideas from the statistical synthetic data community to DP.
+
+## 
+
+### **Early 2010s: Expanded Use in Agencies & DP Research**
+- **2011** – **Reiter & Kinney** highlight differences in combining rules between fully and partially synthetic data; clarify that posterior draws of parameters are unnecessary for partial synthesis.  
+- **2011** – **Synthetic Longitudinal Business Database** is released (Kinney et al.), partially synthetic data covering all U.S. businesses.
+
+## 
+
+- **2012** – **Reiter & Kinney** further underscore technical distinctions between full and partial synthesis under DP.
+- **2013–2014** – Approaches like **PrivBayes** (Zhang et al.) and **DPCopula** (Li et al.) use Bayesian networks and copula models to capture high-dimensional dependencies under DP.
+
+## 
+
+### **Mid-Late 2010s: Machine Learning and GANs**
+- **2015** – **Statistics Netherlands** publishes synthetic EU-SILC files for Eurostat, mainly for training and code development purposes.
+- **2016** – The **Maryland Longitudinal Data System Center** initiates the Synthetic Data Project for longitudinal education data.
+
+## 
+
+- **2017** – Emergence of applying **Generative Adversarial Networks (GANs)** to microdata (e.g., medGAN by Choi et al.) for synthetic health records.
+- **2018–2019** – The **NIST Differential Privacy Synthetic Data Challenge** spurs innovation; winning methods often rely on Bayesian networks or preserving certain marginals under DP.
+
+## 
+
+### **Late 2010s–Early 2020s: Refinements and New Applications**
+- **2019–2020** – Rapid expansion of **GAN-based** synthetic data methods (CTGAN by Xu et al., Causal TGAN by Wen et al.), focusing on mixed data types, causal relationships, and improved fidelity.
+- **2020** – **Statistics Canada** uses synthetic data in a hackathon, highlighting broader interest among national statistical offices.
+
+##
+
+- **2021–2022** – 
+  - Ongoing work at the **Australian Bureau of Statistics** to evaluate synthetic data for broader microdata access.  
+  - Continued research on **differentially private** approaches (e.g., quick, flexible neural network approaches, improved Bayesian networks, and specialized techniques for high-dimensional data).
+
+
+## Recent Trends and Ongoing Research
+
+
+- Integration with Formal Privacy: Methods increasingly incorporate DP guarantees, balancing utility and privacy by adjusting “noise” in synthesis mechanisms.
+
+- Advanced ML Techniques: Beyond GANs, there is growing interest in Variational Autoencoders (VAEs), transformers, and hybrid models tailored to tabular/categorical data.
+
+## 
+
+- Agency Adoption: Statistical agencies, government offices, and industry continue to experiment with synthetic data as a safe yet useful proxy for sensitive microdata.
+
+- Challenges: Developing robust utility metrics, handling complex survey designs, ensuring interpretability, and reliably protecting privacy remain focal research areas.
