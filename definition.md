@@ -1,0 +1,3 @@
+**Single Definition of Synthetic Data:**
+
+Synthetic data is artificially generated data that mirrors the statistical properties, patterns, and structures of real-world data without containing any actual personal or identifying information. It is produced through generative AI models, algorithms, or other statistical methods that learn from sample datasets to replicate their correlations and distributions. The result is data that “looks and feels” like the original while ensuring privacy, making it an ideal substitute when concerns about data sensitivity, legal restrictions, or personal information protection arise.
